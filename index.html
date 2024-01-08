@@ -8,42 +8,58 @@
 </head>
 <body>
     <!--Header-->
-    <header>
-        <h1>Michael Diaz</h1> 
-        <img src="./assets/images/placeholder1.jpg">
-    </header> 
+    <header class="header container">
+          <h1 class="logo">Michael Diaz</h1>
+
     <!--Nav Bar-->
-    <Nav>
-        <a href="">About Me</a>
-        <a href="">Work</a>
-        <a href="">Contact Me</a>
-        <a href="">Resume</a>
-    </Nav>
+    <nav class="navbar container">
+       
+        <a href="#about" class="active">About Me</a>
+        <a href="#work" class="active">Work</a>
+        <a href="#contact" class="active">Contact</a>
+        
+    </nav>
+    </header>
     
     <!--Body-->
     <main>
-        <!--Portfolio Sections-->
-        <section>
-            <header>About Me</header>
+        <section class="container">
+            <img src="assets/images/IMG_1458.jpg" id="image" alt="Michael Diaz in Georgia with in front of a mountain landscape">
         </section>
-        <section>
-        <header>Work</header>
-    </section>
-    <section>
-        <header>Contact Me</header>
+
+        <!--Portfolio Sections-->
+    <section id="about" class="about container">
+            <div class="about-content">
+                <h1>About Me</h1>
+                <h4>Full Stack Developer Trainee</h4>
+                <p>Michael Diaz is from Miami and currently resides in Central Florida. He is currently a student in the UCF Full Stack coding bootcamp. He worked 8 years for Apple Inc., starting in the retail side of things and was promoted to a corporate postion, thereafter. Currenty, he works as a Property Damage Adjuster for Progressive Insurance. Michael has a hunger and ambition for research and self-development.   </p>
+            </div>
+        </section>
+        
+        <section id="work" class="work container">
+            <div class="work-content">
+                 <h1>Work</h1>
+                 <h3 class="subheadings">Pre-Work Study Guide</h3> 
+                 <a href="https://git-mic.github.io/prework-study-guide/">
+                    <img src="./assets/images/study.jpg" id="workimage" alt="person studying"></a>
+            </div>
+         </section>
+         
+         <section id="contact"  class="contact container">
+            <div class="contact-content">
+        <h1>Contact Me</h1>
         <ul>
             <li><a href="tel:555-555-5555">555-555-5555</a></li>
             <li><a href="mailto:M.diaz@fakemail.com">M.diaz@fakemail.com</a></li>
             <li><a href="https://github.com/Git-Mic" target="_blank">GitHub</a></li>
-            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://twitter.com/Supa_Nintendope" target="_blank">Twitter</a></li>
         </ul>
+        </div>
     </section>
-    <section>
-        <header>Resume</header>
-    </section>
+   
     </main>
     <!--Footer-->
-    <footer>
+    <footer class="container">
         You've reached the bottom of the page. Come back soon!
     </footer>
 </body>
