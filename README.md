@@ -12,6 +12,7 @@ The following link contains a screenshot of the website's appearance.
 ![_C__Users_mdiaz_OneDrive_Desktop_michael-portfolio_index html](https://github.com/Git-Mic/michael-portfolio/assets/58701184/752c161b-7fc0-47f3-b93a-12c2cc3f6b59)
 
 Below is a link to the deployed application. 
+https://git-mic.github.io/michael-portfolio/
 
 
 ## Installation
